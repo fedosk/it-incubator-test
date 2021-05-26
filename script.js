@@ -48,8 +48,8 @@ superSum(1, 2)
 /* 7) Создать массив из чисел в перемешку (не отсортированы). 
 С помощью цикла for найти максимальный и минимальный элементы в массиве*/
 let randomNumber = [2,5,7,9,4,2,4,7,99,7,1];
-let maxNum = 0;
-let minNum = randomNumber[0]
+let maxNum = randomNumber[0];
+let minNum = randomNumber[0];
 
 for(let i = 0; i < randomNumber.length; i++){
   if (randomNumber[i] > maxNum){
@@ -60,7 +60,10 @@ for(let i = 0; i < randomNumber.length; i++){
   }
 }
 
+
 console.log(maxNum, minNum)
+
+
 
 // 8) Создать 2 переменные a и b… присвоить им любые значения. Потом программно поменять эти значения местами, не используя значения напрямую
 
